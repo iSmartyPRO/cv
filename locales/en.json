@@ -1,0 +1,299 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Interests",
+    "projects": "Projects"
+  },
+  "personalInfo": {
+    "name": "Ilias",
+    "lastName": "Aidar",
+    "subHeadingText": [
+      "IT Management",
+      "Web Developement",
+      "Automatization"
+    ],
+    "city": "Saint-Petersburg, Russia",
+    "phoneNumber": "+7 (952) 352 21 69",
+    "email": "Ilias.Aidar@ismarty.pro",
+    "linkedin": "https://www.linkedin.com/in/ilias-aidar-12b76841/",
+    "github": "https://github.com/iSmartyPro/",
+    "myDescription": "Dependable and goal-oriented IT Specialist with 20+ years of experience maintaining in-house IT systems and providing comprehensive technical support."
+  },
+  "educationDegrees": {
+    "title": "Education",
+    "degrees": [
+      {
+        "collage": "Kyrgyz National University",
+        "name": "Kyrgyz American Faculty of Computer Technologies and the Internet Technologies",
+        "itemList": ["Informatics and Electronic Systems in Business"],
+        "startEndDate": "1998-2002"
+      },
+      {
+        "collage": "Kyrgyz National University",
+        "name": "Kyrgyz American Faculty of Computer Technologies and the Internet Technologies",
+        "itemList": ["Automated information processing and control systems"],
+        "startEndDate": "2002-2003"
+      },
+      {
+        "collage": "Adult Education Center",
+        "name": "Courses",
+        "itemList": ["Oratory", "Marketing Basics", "Management", "Psychology"],
+        "startEndDate": "2003"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Work Expecience 🔨",
+    "works": [
+      {
+        "position": "Head of IT Department",
+        "companie": "GENCO Industry",
+        "responsabilities": [
+          "IT consultation for company employees",
+          "managing 2 system administrators with more than 100 users",
+          "deployed servers and NAS in Data Center",
+          "using hypervisors on all servers in company",
+          "server administration: Active Directory, Microsoft Exchange 2016, File Servers (in Data Centers, Central Office and each project site), Terminal servers, cloud server, Backup System (Veeam)",
+          "deployed CRM System based on EspoCRM, customized by company requirement",
+          "created few IT articles in Knowledge base of CRM System for all users for best experience of using IT System. Wrote content and recorded video of ScreenCasts for any kind of cas-es. Also for System administrators created separate category with more technical content (instructions, recommendations and any kind of scripts in VBS and PowerShell). Knowledge base is very helpful for all users, specially for new users for quick intro to company rules",
+          "deployed File Cloud System based on NextCloud with Active Directory authorization for have access to internal File Server Folder and Files, also share with optional features – secure by password and time limited – https://cloud.gencoindustry.com",
+          "deployed and configured Virtual PBX System based on FreePBX",
+          "deployed and configured IT monitoring System based on Zabbix",
+          "created Telegram bot  - https://t.me/genco_kadry_bot (screenshot in Appendix), using PHP Programming Language and Laravel Framework. Telegram bot is showing the list of all users in Active Directory, sorted by Project Site, it’s display all contact information (Russian and English Full Name, position, mobile, email). It’s only display to users who’s Telegram ID is included in Active Directory (only authorized visitors can see the list). In addition automatized user creation process – only HR Department have special access to additional functionality – they can create request for creating users, and then IT department with Admin access can generate PowerShell Script which will create user in few seconds – it’s automatically add re-quired security groups depend on users site assigned. In future create Web Application which will allow manage users with browsers, will be used NodeJS (+adldap2 module) + MongoDB",
+          "developed vCard System – https://vcard.gencoindustry.com/ (screenshot in Appendix), which allow to generate Outlook signature for each users with branded QR Codes, when user scan QR Code it will open Personal website with all required contact information and com-pany social networks. All data is getting from Active Directory automatically",
+          "developed Unipass System – https://unipass.gencoindustry.com/ (screenshot in Appendix), its internal resource, its generate unique password for local administrators account of com-puter for more security reason, to decrypt password – you should use special key which will show you real password",
+          "automatized Backup Process for all file servers (daily)",
+          "additionally automatized process of Backing up the Virtual Machines from Hypervisors",
+          "when company started activity in 2019, created official website https://www.gencoindustry.com",
+          "in this year created new version of official website – https://demo.gencoindustry.com, hope-fully till the end of September 2021 site will move to main domain",
+          "created design of computer layout Corporate Brochure, Online Version available by this link https://www.gencoindustry.com/presentation/ , periodically brochure is printed in typography for Business meetings. Brochure is created in Corel Draw, Adobe Photoshop, Adobe InDe-sign",
+          "created internal portal https://portal.gencoindustry.com for Internal usage. It’s display all lo-cal resources of company – Microsoft Exchange, Active Directory Logins, hwInfo, GENCO Users, CRM, Password Keeper, Telegram Bot, Radius WiFi Auth Service, Unifi Controller, Zabbix, Git Server, Cloud, Website, GENCO Terminal etc.",
+          "in addition to general online resources, created mechanism for collecting users and hardware info using NodeJS +MongoDB"
+        ],
+        "startEndDate": "February 2019 - Present"
+      },
+      {
+        "position": "IT Director",
+        "companie": "AmCham-KG",
+        "responsabilities": [
+          "IT consultation for company employees",
+          "administration File Server",
+          "deployed CRM system based on EspoCRM, and customized for Company requirement",
+          "deployed File Cloud System based on NextCloud with Active Directory authorization for have access to internal File Server Folder and Files, also share with optional features – secure by password and time limited – https://cloud.amcham.kg",
+          "deployed and configured Virtual PBX System based on FreePBX",
+          "automatized Backup process for File Server (daily)",
+          "ensuring the stable operation of user equipment and the local network",
+          "created official corporate website https://www.amcham.kg/ , Note: soon will be updated by new version https://demo.amcham.kg/ , also developed by me",
+          "created site for Event EXPO 2016 “MADE IN KYRGYZSTAN” https://expo2016.amcham.kg/",
+          "created Database of Projects and tenders"
+        ],
+        "startEndDate": "May 2015 - Present"
+      },
+      {
+        "position": "Head of ACS and Communications",
+        "companie": "Chakan GES (Kyrgyzstan, Bishkek)",
+        "responsabilities": [
+          "reorganized IT Infrastructure",
+          "organized inhouse Data Center",
+          "organized of fiber-optic communication between six hydroelectric power plants using active Mikrotik"
+        ],
+        "startEndDate": "June 2017 - January 2019"
+      },
+      {
+        "position": "System Administrator",
+        "companie": "BOES Construction (Russia, Moscow)",
+        "responsabilities": [
+          "IT consultation for company employees",
+          "server administration: Active Directory, File Server, Exchange Server",
+          "update data on corporate website",
+          "automatized processes in system using PHP programming language (+Laravel Framework 5.3) with Active Directory Integration",
+          "personal project \"Dashboard\" – single page application with all company online resources",
+          "personal project \"AD Logins\" – getting all users activity on there workstations – logon, lock, unlock, logoff. This information is helping to system administrator to quick find users computers for connect them and help online",
+          "personal project \"HW Info\" – getting all technical information about computer hardware",
+          "personal project \"HRSpyInfo\" – for Access Control System RusGate created API Endpoint for GET requests, using PHP Language (XAMP Server). Next – created web interface for comfortable preview all events in Access Control System, also created script which everyday automatically create report of all people who is coming to office, and send this report to HR Department for analyze. In report also available link for online preview. Earlier employee usually coming to server room and sit there to export data manually, after this improvement HR Department stoped spending the time"
+        ],
+        "startEndDate": "June 2017 - January 2019"
+      },
+      {
+        "position": "IT Manager",
+        "companie": "Central Asia Crafts Support Association in Central Asia",
+        "responsabilities": [
+          "purchased equipments: server, workstations",
+          "configured hypervisor for Virtual Servers",
+          "servers administration based on Windows 2008 и Linux CentOS",
+          "workstations administration for users",
+          "created website for International project OIMO http://www.oimo.global/",
+          "created e-map for artisans by FAO Project http://fao2016.cacsarc.org/ "
+        ],
+        "startEndDate": "February 2016 - September 2016"
+      },
+      {
+        "position": "IT Manager",
+        "companie": "Chakan GES (Kyrgyzstan, Bishkek)",
+        "responsabilities": [
+          "purchased equipments: servers, workstations, audio recording system",
+          "configured Hypervisors for Virtual Servers",
+          "automatized process for file server and 1C system (accounting system)",
+          "IT consultation for employees",
+          "server administration based on Windows 2012",
+          "created official corporate website http://www.chakanges.kg/"
+        ],
+        "startEndDate": "October 2016 - July 2017"
+      },
+      {
+        "position": "IT Director",
+        "companie": "GEOPAY KG, Kyrgyzstan, Bishkek",
+        "responsabilities": [
+          "IT department technical staff management developers / programmers",
+          "technical meetings with partner companies: banks / mobile operators / restaurants / payment systems (Qiwi / Mobilnik / QuickPay / PinPay)",
+          "network administration of company servers Windows 2003/2008, Linux, CentOS, domain controllers, MS Exchange, Cisco (VPN)",
+          "administration of cloud servers based on Amazon EC2 (Linux, Windows)",
+          "working with databases - MySQL, MS SQL"
+        ],
+        "startEndDate": "September 2011 - June 2016"
+      },
+      {
+        "position": "IT manager/Project Manager",
+        "companie": "Word Perfect Translations, Russia, Moscow",
+        "responsabilities": [
+          "technical support for the computer equipment of the Moscow office, the head office in Ire-land (Dublin) and a branch office in Kazakhstan (Almaty)",
+          "created and support of the corporate company's websites http://www.wordperfect.ie/, http://www.wp-translations.ru/, http://www.wp-translations.com/",
+          "work with clients of the company as project manager of translation agency"
+        ],
+        "startEndDate": "September 2009 - June 2011"
+      },
+      {
+        "position": "IT Manager of video-surveillance system /System administrator",
+        "companie": "ROTEX, Russia, Krasnoyarsk",
+        "responsabilities": [
+          "maintenance of video surveillance systems at the facilities of the Rotex company",
+          "maintenance of computer equipment of the company and its branches"
+        ],
+        "startEndDate": "July 2009 - September 2009"
+      },
+      {
+        "position": "Head of Computer technology Department",
+        "companie": "StinsCom Ltd., Kyrgyzstan, Bishkek",
+        "responsabilities": [
+          "ensuring the smooth functioning and maintenance of computer networks and communication equipment, maintenance of system software",
+          "control over the implementation of preventive work, elimination of malfunctions arising dur-ing the operation of the means of components of computer systems",
+          "control over high-quality installation of active equipment, servers, switches, uninterruptible power supplies and switching of network nodes at sites",
+          "Works related to network technologies and security systems: video surveillance system, automat-ic telephone exchange, security and fire alarms, access control and management system. Installa-tion / configuration of security systems and maintenance at facilities: National Bank of the Kyrgyz Republic, State Committee for National Security, Halyk Bank, Asia Universal Bank, American Uni-versity of Central Asia, University of Central Asia (Agakhan), Russian Academy Sciences in the Kyrgyz Republic (IVTAN), Megacom cellular company, United Nations Office (UNDP), etc. In-stalled systems: Windows 2003 Server, Video surveillance systems: ITV Intellect, Smartec, Infini-ty; Security and fire alarms and Access control systems: Legos, Sigma-IS (Rubezh), Bolid"
+        ],
+        "startEndDate": "April 2006 - March 2009"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
+    "devIcons": [
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-bitbucket-original-wordmark",
+      "devicon-jquery-plain-wordmark",
+      "devicon-linux-plain",
+      "devicon-windows8-original",
+      "devicon-illustrator-plain",
+      "devicon-photoshop-plain",
+      "devicon-illustrator-plain",
+      "devicon-react-original",
+      "devicon-visualstudio-plain",
+      "devicon-dot-net-plain",
+      "devicon-vuejs-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "System Administration",
+      "Network Technologies",
+      "Graphic Design",
+      "Responsive Design & UX",
+      "REST API building"
+    ]
+  },
+  "interests": {
+    "title": "Hobbies",
+    "firstBlock": "Apart from being a IT Specialist, I enjoy most of my time listening music. Also I like to ride on bike and run to make my health more stronger - it's important in current situation in the world",
+    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the IT technology which will be helpfull for company usage and other peoples"
+  },
+  "projects": {
+    "title": "Personal Projects 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "vCard System - Personal Employee Page for GENCO",
+        "description": "vCard System is designed to provide detail information about employee of company. vCard System automatically getting data (including employee photo) from Active Directory and import them to the mongoDB. There is also exist a PowerShell Script which generate Outlook signature for each users in system with branded details and QR Codes for personal page with contact details. On personal page - you can download vCard file (*.vcf) to any device with Photos. Easy to use for end user",
+        "image": "/images/vCard_GENCO.jpg",
+        "siteUrl": "https://vCard.gencoindustry.com/p/Ilias.Aidar"
+      },
+      {
+        "name": "vCard System - Outlook Signature for GENCO",
+        "description": "This is sample of outlook Signature which is generated by PowerShell Scripts. The script is getting all details by API from vCard System by GET requests.",
+        "image": "/images/vCard_OutlookSignature_GENCO.jpg",
+        "siteUrl": "https://github.com/iSmartyPRO/vcard"
+      },
+      {
+        "name": "vCard System - Personal Employee Page for AmCham-KG",
+        "description": "one more sample of vCard System which was deployed for AmCham-KG",
+        "image": "/images/vCard_AmCham.jpg",
+        "siteUrl": "https://vcard.amcham.kg/p/Ilias.Aidar"
+      },
+      {
+        "name": "Portal Dashboard - GENCO",
+        "description": "Simple single page web app, which display all corporate resources",
+        "image": "/images/genco_portal_dashboard.jpg",
+        "siteUrl": ""
+      },
+      {
+        "name": "Telegram bot of Active Directory Users for GENCO",
+        "description": "This telegram bot is getting all users data from Active Directory and store them in MySQL Database using PHP Language with Laravel Framework. Only authorized telegram users have access to the Telegram bot. Also special function exist for HR Department, which allowing make a request for creating new User account for new employee. When HR Deprartment provide all details of employee, System administrator can generate PowerShell script which allow create new user account in couple seconds with all required fields included to required security group of Active Directory",
+        "image": "/images/genco_hrBot.jpg",
+        "siteUrl": "https://t.me/genco_kadry_bot"
+      },
+      {
+        "name": "Active Directory Users from Web",
+        "description": "This is simple web application display all users via Web Browser with all required details. It's automatically getting all data from Active Directory. Its usefull for users - they quickly find all contact details from one place",
+        "image": "/images/adUsers.jpg",
+        "siteUrl": ""
+      },
+      {
+        "name": "Active Directory Logins",
+        "description": "Very usefull web application which show all user login activity, such as login, logout, lock, unlock. Usually this tools is helpfull for system administrator to quickly find the computername by username and then quickly connect to user computer to quick help. All login actions are collecting via GPO and PowerShell Script which sending POST request with all required data. ",
+        "image": "/images/adLogins.jpg",
+        "siteUrl": ""
+      },
+      {
+        "name": "Hardware Info",
+        "description": "Web application which show all hardware info in corporate network. All data is collecting via GPO using PowerShell Script.",
+        "image": "/images/adHwInfo.jpg",
+        "siteUrl": ""
+      },
+      {
+        "name": "Unipass",
+        "description": "This complex of application is generate unique password for each local users in network and store all password encrypted. Via web interface system administrators can see all password in hashed strign, to decrypt system administrator are using special secret key. This solution is very usefull for security reason. Using GPO +PowerShell - password is updated on all local computers",
+        "image": "/images/unipass.jpg",
+        "siteUrl": ""
+      },
+      {
+        "name": "Design of Corporate Brochure for GENCO",
+        "description": "Helping to my company to promote services. Developed special design for Corporate brochure for more than 60 pages",
+        "image": "/images/genco_brochure.jpg",
+        "siteUrl": "https://cloud.gencoindustry.com/s/iMFEHFXYSXKtqSZ"
+      },
+      {
+        "name": "Design of Newsletters for AmCham-KG",
+        "description": "few years making the design of Newsletters. All designed newsletter are posted on official website and sending to the parters.",
+        "image": "/images/amcham_newsletters.jpg",
+        "siteUrl": "https://www.amcham.kg/media-centre/business-insights/"
+      }
+    ]
+  }
+}
